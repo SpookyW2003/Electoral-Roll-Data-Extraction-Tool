@@ -1,25 +1,13 @@
 # Core dependencies for PDF processing and data manipulation
-pdfplumber==0.10.0
-pandas==2.1.4
-openpyxl==3.1.2
+streamlit>=1.28.0
+pdfplumber>=0.9.0
+pandas>=2.0.0
+openpyxl>=3.1.0
 
-# Additional dependencies that may be required
+# Additional dependencies
 Pillow>=8.0.0
 chardet>=3.0.4
 pdfminer.six>=20211012
-cryptography>=3.4.8
 
-# GUI dependencies (built-in with Python)
-# tkinter - included with Python standard library
-
-# CLI dependencies (built-in with Python)
-# argparse - included with Python standard library
-
-# Utility dependencies (built-in with Python)
-# pathlib - included with Python standard library
-# logging - included with Python standard library
-# re - included with Python standard library
-# os - included with Python standard library
-# sys - included with Python standard library
-# threading - included with Python standard library
-# typing - included with Python standard library
+# Remove cryptography as it may cause conflicts
+# cryptography>=3.4.8
